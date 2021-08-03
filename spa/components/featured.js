@@ -99,7 +99,7 @@ function create_each_block_2(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "href", a_href_value = "categories/" + /*catg*/ ctx[12]);
+			attr(a, "href", a_href_value = "catgs/" + /*catg*/ ctx[12]);
 			attr(a, "class", "ml-1 svelte-s3q040");
 		},
 		m(target, anchor) {
@@ -123,7 +123,7 @@ function create_each_block_2(ctx) {
 				if_block = null;
 			}
 
-			if (dirty & /*allFeatures*/ 1 && a_href_value !== (a_href_value = "categories/" + /*catg*/ ctx[12])) {
+			if (dirty & /*allFeatures*/ 1 && a_href_value !== (a_href_value = "catgs/" + /*catg*/ ctx[12])) {
 				attr(a, "href", a_href_value);
 			}
 		},
@@ -312,7 +312,7 @@ function create_default_slot(ctx) {
 			this.h();
 		},
 		h() {
-			attr(i, "class", "accent las la-chevron-circle-down text-4xl md:text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
+			attr(i, "class", "accent las la-chevron-circle-down text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
 			attr(span, "class", span_class_value = "inline-block " + (/*hovering*/ ctx[9] ? "animate-bounce" : ""));
 		},
 		m(target, anchor) {
@@ -583,10 +583,10 @@ function create_each_block(ctx) {
 			attr(div4, "id", "featureOverlayText");
 			attr(div4, "class", "feature w-full absolute row m-0 px-16 svelte-s3q040");
 			attr(i1, "class", "");
-			attr(i2, "class", "accent las la-chevron-circle-left text-4xl md:text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
+			attr(i2, "class", "accent las la-chevron-circle-left text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
 			attr(button0, "class", "absolute m-2 left-2");
 			set_style(button0, "top", "50%");
-			attr(i3, "class", "accent las la-chevron-circle-right text-4xl md:text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
+			attr(i3, "class", "accent las la-chevron-circle-right text-5xl rounded-full overflow-hidden bg-clip-content opacity-80 hover:opacity-100");
 			attr(button1, "type", "button");
 			attr(button1, "class", "absolute m-2 right-2");
 			set_style(button1, "top", "50%");

@@ -552,7 +552,7 @@ function create_each_block_3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "href", a_href_value = "categories/" + /*catg*/ ctx[14]);
+			attr(a, "href", a_href_value = "catgs/" + /*catg*/ ctx[14]);
 			attr(a, "class", "ml-1");
 		},
 		m(target, anchor) {
@@ -577,7 +577,7 @@ function create_each_block_3(ctx) {
 				if_block = null;
 			}
 
-			if (dirty & /*allProjs*/ 4 && a_href_value !== (a_href_value = "categories/" + /*catg*/ ctx[14])) {
+			if (dirty & /*allProjs*/ 4 && a_href_value !== (a_href_value = "catgs/" + /*catg*/ ctx[14])) {
 				attr(a, "href", a_href_value);
 			}
 		},

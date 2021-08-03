@@ -43,7 +43,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (66:22) {#if i < categories.length - 1}
+// (64:22) {#if i < categories.length - 1}
 function create_if_block_1(ctx) {
 	let t;
 
@@ -63,7 +63,7 @@ function create_if_block_1(ctx) {
 	};
 }
 
-// (64:12) {#each categories as catg, i}
+// (62:12) {#each categories as catg, i}
 function create_each_block_1(ctx) {
 	let a;
 	let t0_value = /*catg*/ ctx[20] + "";
@@ -90,7 +90,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "href", a_href_value = "categories/" + /*catg*/ ctx[20]);
+			attr(a, "href", a_href_value = "catgs/" + /*catg*/ ctx[20]);
 			attr(a, "class", "ml-1");
 		},
 		m(target, anchor) {
@@ -115,7 +115,7 @@ function create_each_block_1(ctx) {
 				if_block = null;
 			}
 
-			if (dirty & /*categories*/ 512 && a_href_value !== (a_href_value = "categories/" + /*catg*/ ctx[20])) {
+			if (dirty & /*categories*/ 512 && a_href_value !== (a_href_value = "catgs/" + /*catg*/ ctx[20])) {
 				attr(a, "href", a_href_value);
 			}
 		},
@@ -126,7 +126,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (74:21) {#if i < tags.length - 1}
+// (72:21) {#if i < tags.length - 1}
 function create_if_block(ctx) {
 	let t;
 
@@ -146,7 +146,7 @@ function create_if_block(ctx) {
 	};
 }
 
-// (72:12) {#each tags as tag, i}
+// (70:12) {#each tags as tag, i}
 function create_each_block(ctx) {
 	let a;
 	let t0_value = /*tag*/ ctx[17] + "";
@@ -639,7 +639,6 @@ function instance($$self, $$props, $$invalidate) {
 	let path = content.path;
 
 	// Ogp description length - setting to last word on-or-before 110 characters
-	// let desc_idx = articleBody.match(/<p>/);
 	let desc_start = articleBody.indexOf("<p>");
 
 	let desc_end = desc_start + 110;

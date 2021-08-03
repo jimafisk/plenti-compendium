@@ -325,19 +325,19 @@ function create_fragment(ctx) {
 		h() {
 			attr(h40, "class", "header mb-1");
 			attr(small0, "class", "ml-auto");
-			attr(a0, "href", "categories/four-seasons");
+			attr(a0, "href", "catgs/four-seasons");
 			attr(a0, "class", "inline-flex");
 			attr(small1, "class", "ml-auto");
-			attr(a1, "href", "categories/newyork-city");
+			attr(a1, "href", "catgs/newyork-city");
 			attr(a1, "class", "inline-flex");
 			attr(small2, "class", "ml-auto");
-			attr(a2, "href", "categories/photobooth");
+			attr(a2, "href", "catgs/photobooth");
 			attr(a2, "class", "inline-flex");
 			attr(small3, "class", "ml-auto");
-			attr(a3, "href", "categories/photography");
+			attr(a3, "href", "catgs/photography");
 			attr(a3, "class", "inline-flex");
 			attr(small4, "class", "ml-auto");
-			attr(a4, "href", "categories/videography");
+			attr(a4, "href", "catgs/videography");
 			attr(a4, "class", "inline-flex");
 			attr(ul0, "class", "text-aside mb-4");
 			attr(div0, "class", "row");

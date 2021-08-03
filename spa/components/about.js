@@ -186,8 +186,8 @@ function create_fragment(ctx) {
 			attr(div4, "class", "w-full pt-16");
 			attr(h21, "class", "accent text-white text-4xl font-extrabold ");
 			attr(div5, "class", "w-full font-bold text-lg px-6 pt-10");
-			attr(p, "class", "text-white text-md sm:text-lg px-6 py-6");
-			attr(div6, "class", "absolute ml-2 md:ml-12 xl:mt-6 bg-black bg-opacity-50 w-screen-40 sm:w-screen-70 xl:w-screen-80 h-screen-70");
+			attr(p, "class", "text-white text-md sm:text-lg xl:text-xl px-6 py-6");
+			attr(div6, "class", "absolute ml-2 md:ml-12 xl:mt-6 bg-black bg-opacity-50 w-screen-45 sm:w-screen-70 xl:w-screen-80 h-screen-70");
 			set_style(div6, "top", "14%");
 			set_style(div6, "overflow-y", "auto");
 			attr(div7, "id", "about");
