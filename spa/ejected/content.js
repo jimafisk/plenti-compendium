@@ -1,6 +1,6 @@
 const allContent = [{
 "pager": 1,
-"path": "/404",
+"path": "404",
 "type": "404",
 "filename": "404.json",
 "fields": {
@@ -82,7 +82,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/pages/about",
+"path": "pages/about",
 "type": "pages",
 "filename": "about.json",
 "fields": {
@@ -116,7 +116,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/pages/contact",
+"path": "pages/contact",
 "type": "pages",
 "filename": "contact.json",
 "fields": {
@@ -127,7 +127,7 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/posts/post-01",
+"path": "posts/post-01",
 "type": "posts",
 "filename": "post-01.json",
 "fields": {
@@ -150,7 +150,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-02",
+"path": "posts/post-02",
 "type": "posts",
 "filename": "post-02.json",
 "fields": {
@@ -176,7 +176,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-03",
+"path": "posts/post-03",
 "type": "posts",
 "filename": "post-03.json",
 "fields": {
@@ -202,7 +202,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-04",
+"path": "posts/post-04",
 "type": "posts",
 "filename": "post-04.json",
 "fields": {
@@ -228,7 +228,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-05",
+"path": "posts/post-05",
 "type": "posts",
 "filename": "post-05.json",
 "fields": {
@@ -254,7 +254,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-06",
+"path": "posts/post-06",
 "type": "posts",
 "filename": "post-06.json",
 "fields": {
@@ -280,7 +280,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/posts/post-07",
+"path": "posts/post-07",
 "type": "posts",
 "filename": "post-07.json",
 "fields": {
@@ -306,7 +306,7 @@ const allContent = [{
 
 },{
 "pager": 1,
-"path": "/projs",
+"path": "projs",
 "type": "projs",
 "filename": "projs.json",
 "fields": {
@@ -316,19 +316,19 @@ const allContent = [{
 }
 },{
 "pager": 1,
-"path": "/1",
+"path": "1",
 "type": "index",
 "filename": "index.json",
 "fields": { "name": "Compendium", "site": "www.example.net", "logo": "las la-feather-alt", "title": "Compendium | Personal Blog Template", "description": "A personal blog template for the Plenti-based SSG built on Svelte.", "theme": { "postsPerPage": 6, "projsPerPage": 3, "tagsPerPage": 12, "mathTypesetting": true, "codeHighlighting": true, "featuredPage": "Bleed", "featuredPageValues": "Bleed, Frame, None", "colorScheme": "Earthliness", "colorSchemeValues": "Earthliness, Simplicity, Technobeat" }, "socialLinks": [ { "src": "https://www.linkedin.com/", "ico": "lab la-linkedin-in", "enabled": true }, { "src": "https://github.com/", "ico": "lab la-github-alt", "enabled": true }, { "src": "https://about.gitlab.com/", "ico": "lab la-gitlab", "enabled": true }, { "src": "https://twitter.com/", "ico": "lab la-twitter", "enabled": false }, { "src": "https://keybase.io/", "ico": "lab la-keybase", "enabled": true }, { "src": "https://www.reddit.com/", "ico": "lab la-reddit", "enabled": true }, { "src": "https://www.instagram.com/", "ico": "lab la-instagram", "enabled": false }, { "src": "https://www.facebook.com/", "ico": "lab la-facebook-f", "enabled": false }, { "src": "", "ico": "", "enabled": false } ] } 
 },{
 "pager": 2,
-"path": "/2",
+"path": "2",
 "type": "index",
 "filename": "index.json",
 "fields": { "name": "Compendium", "site": "www.example.net", "logo": "las la-feather-alt", "title": "Compendium | Personal Blog Template", "description": "A personal blog template for the Plenti-based SSG built on Svelte.", "theme": { "postsPerPage": 6, "projsPerPage": 3, "tagsPerPage": 12, "mathTypesetting": true, "codeHighlighting": true, "featuredPage": "Bleed", "featuredPageValues": "Bleed, Frame, None", "colorScheme": "Earthliness", "colorSchemeValues": "Earthliness, Simplicity, Technobeat" }, "socialLinks": [ { "src": "https://www.linkedin.com/", "ico": "lab la-linkedin-in", "enabled": true }, { "src": "https://github.com/", "ico": "lab la-github-alt", "enabled": true }, { "src": "https://about.gitlab.com/", "ico": "lab la-gitlab", "enabled": true }, { "src": "https://twitter.com/", "ico": "lab la-twitter", "enabled": false }, { "src": "https://keybase.io/", "ico": "lab la-keybase", "enabled": true }, { "src": "https://www.reddit.com/", "ico": "lab la-reddit", "enabled": true }, { "src": "https://www.instagram.com/", "ico": "lab la-instagram", "enabled": false }, { "src": "https://www.facebook.com/", "ico": "lab la-facebook-f", "enabled": false }, { "src": "", "ico": "", "enabled": false } ] } 
 },{
 "pager": 1,
-"path": "/projs/1",
+"path": "projs/1",
 "type": "projs",
 "filename": "projs.json",
 "fields": { "title": "Projects Page", "menu": "Projects", "enabled": true }
